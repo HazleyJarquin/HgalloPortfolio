@@ -12,7 +12,7 @@ export const HomePage = () => {
   const { t } = useTranslation();
   const downloadCv = () => {
     const link = document.createElement("a");
-    link.href = "public/pdf/CV.docx";
+    link.href = "/pdf/CV.docx";
     link.download = "CV.docx";
     link.click();
   };
