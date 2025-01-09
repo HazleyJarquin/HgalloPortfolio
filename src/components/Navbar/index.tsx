@@ -8,13 +8,14 @@ import { useTourStore } from "@/store/useTourStore";
 import { useStartTour } from "./hooks/useStartTour";
 import { MenuIcon, XIcon } from "lucide-react";
 import { NavLinks } from "./components/NavLinks";
+import { useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
   const { t } = useTranslation();
   const { changeLanguage, language } = useLanguage();
   const { tour, setTour } = useTourStore();
   const { startTour } = useStartTour({ t });
-
+  const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const languageText =
@@ -47,6 +48,9 @@ export const Navbar = () => {
               id="contact"
               mode="secondary"
               text={t("CONTACT_TEXT")}
+              onClick={() => {
+                navigate("/contact");
+              }}
             />
             <CustomButton
               mode="tertiary"

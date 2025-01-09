@@ -12,7 +12,7 @@ export const ProjectsPage = () => {
   });
 
   return (
-    <div className="w-full h-auto flex flex-col gap-2 items-center p-10">
+    <div className="w-full h-auto flex flex-col gap-2 items-center">
       <div className="w-full flex flex-col justify-start pb-20 border-b-2 border-secondaryColors-200">
         <motion.h1
           initial={{ y: -10, opacity: 0 }}

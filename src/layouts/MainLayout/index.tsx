@@ -17,7 +17,7 @@ export const MainLayout = () => {
         <Navbar />
       </div>
 
-      <div className="w-full h-full mt-[60px] overflow-y-auto">
+      <div className="w-full h-full mt-[60px] overflow-y-auto p-10">
         <Outlet />
       </div>
     </div>

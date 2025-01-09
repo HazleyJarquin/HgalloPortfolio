@@ -2,38 +2,13 @@ import { TFunction } from "i18next";
 import NotFound from "../../../public/images/NotFound.png";
 import { IProjectsResponse } from "@/interfaces/IProjectsResponse";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
+import { iconByTecnologyName } from "@/constants/iconByTecnologyName";
 interface Props {
   projectData: IProjectsResponse;
   t: TFunction;
 }
 
 export const ProjectsCard = ({ projectData, t }: Props) => {
-  const iconByTecnologyName: Record<string, React.ReactNode> = {
-    React: <img src="/icons/React.svg" alt="React" className="w-6 h-6" />,
-    TypeScript: (
-      <img src="/icons/Typescript.svg" alt="TypeScript" className="w-6 h-6" />
-    ),
-    Firebase: (
-      <img src="/icons/Firebase.svg" alt="Firebase" className="w-6 h-6" />
-    ),
-    "Material-UI": (
-      <img src="/icons/MaterialUI.svg" alt="Material-UI" className="w-6 h-6" />
-    ),
-    Axios: <img src="/icons/Axios.svg" alt="Axios" className="w-6 h-6" />,
-    Tailwind: (
-      <img src="/icons/Tailwind.svg" alt="Tailwind" className="w-6 h-6" />
-    ),
-    ShadcnUI: (
-      <img src="/icons/Shadcn.svg" alt="Tailwind" className="w-6 h-6" />
-    ),
-    "Next.js": <img src="/icons/NextJs.svg" alt="NextJs" className="w-6 h-6" />,
-    Zustand: (
-      <img src="/images/ZustandLogo.png" alt="Tailwind" className="w-6 h-6" />
-    ),
-    "React-Query": (
-      <img src="/icons/ReactQuery.svg" alt="React-Query" className="w-6 h-6" />
-    ),
-  };
   return (
     <div
       className="w-full h-auto flex flex-col cursor-pointer"

@@ -51,6 +51,9 @@ export const NavLinks = ({ isMenuOpen, t }: Props) => {
             id="contact"
             mode="secondary"
             text={t("CONTACT_TEXT")}
+            onClick={() => {
+              navigate("/contact");
+            }}
           />
         </div>
       )}
