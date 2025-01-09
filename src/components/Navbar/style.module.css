@@ -1,0 +1,25 @@
+.popoverContainer * {
+  font-family: "Syne", serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.popoverContainer {
+  background: linear-gradient(145deg, #696969, #262a2c);
+  color: white;
+  font-family: "Syne", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.driver-popover-next-btn {
+  background-color: transparent;
+}
