@@ -13,6 +13,14 @@
 }
 @layer base {
   :root {
+    --white: #ffffff;
+    --black: #000000;
+    --transparent: transparent;
+    --blue-500: #3b82f6;
+    --indigo-300: #a5b4fc;
+    --blue-300: #60a5fa;
+    --violet-200: #c4b5fd;
+    --blue-400: #4f46e5;
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;

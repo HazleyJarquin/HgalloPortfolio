@@ -13,7 +13,7 @@ export const SkillsSlider = ({ skillLevel, skillName }: Props) => {
           <span className="text-gray-700 font-medium">
             {iconByTecnologyName[skillName]}
           </span>
-          <span className="text-gray-700 font-medium">{skillName}</span>
+          <span className="text-white font-medium">{skillName}</span>
         </div>
         <span className="text-gray-500 text-sm">{skillLevel}%</span>
       </div>
