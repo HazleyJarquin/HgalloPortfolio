@@ -5,6 +5,7 @@ import { ProjectsPage } from "./pages/Projects";
 import { AboutPage } from "./pages/About";
 import { ContactPage } from "./pages/Contact";
 import { NotFound } from "./pages/NotFound";
+
 function App() {
   return (
     <Router>

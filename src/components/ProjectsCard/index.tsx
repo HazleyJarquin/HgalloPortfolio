@@ -1,5 +1,6 @@
-import { TFunction } from "i18next";
 import NotFound from "../../../public/images/NotFound.png";
+import { Hammer } from "lucide-react";
+import { TFunction } from "i18next";
 import { IProjectsResponse } from "@/interfaces/IProjectsResponse";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 
@@ -16,7 +17,7 @@ export const ProjectsCard = ({ projectData, t }: Props) => {
       className="w-full h-auto flex flex-col cursor-pointer"
       // onClick={() => window.open(projectData.url, "_blank")}
     >
-      <LinkPreview url={projectData.url} className="font-bold">
+      <LinkPreview url={projectData.url} className="relative font-bold">
         <img
           onError={(e) => {
             const imgElement = e.target as HTMLImageElement;
@@ -25,9 +26,14 @@ export const ProjectsCard = ({ projectData, t }: Props) => {
               imgElement.src = NotFound;
             }
           }}
-          className="w-full h-[200px] object-cover rounded-md"
+          className="w-full h-[200px] object-cover object-center rounded-md"
           src={projectData?.image}
         />
+        {projectData.isUnderConstruction && (
+          <div className="absolute top-2 right-2 bg-black/70 p-1 rounded-md">
+            <Hammer className="text-white w-5 h-5" />
+          </div>
+        )}
       </LinkPreview>
 
       <p className="text-white font-bold line-clamp-2 text-center">

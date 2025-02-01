@@ -5,6 +5,7 @@ export interface IProjectsResponse {
   image: string;
   url: string;
   tecnologies: Tecnologies[];
+  isUnderConstruction: boolean;
 }
 
 interface Tecnologies {

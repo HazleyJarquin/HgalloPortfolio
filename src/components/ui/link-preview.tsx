@@ -2,7 +2,7 @@
 import * as HoverCardPrimitive from "@radix-ui/react-hover-card";
 
 import { encode } from "qss";
-import React from "react";
+import React, { useEffect } from "react";
 import {
   AnimatePresence,
   motion,
@@ -57,7 +57,7 @@ export const LinkPreview = ({
 
   const [isMounted, setIsMounted] = React.useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     setIsMounted(true);
   }, []);
 
@@ -69,7 +69,7 @@ export const LinkPreview = ({
   const handleMouseMove = (event: any) => {
     const targetRect = event.target.getBoundingClientRect();
     const eventOffsetX = event.clientX - targetRect.left;
-    const offsetFromCenter = (eventOffsetX - targetRect.width / 2) / 2; // Reduce the effect to make it subtle
+    const offsetFromCenter = (eventOffsetX - targetRect.width / 2) / 2;
     x.set(offsetFromCenter);
   };
 
@@ -91,6 +91,7 @@ export const LinkPreview = ({
         <HoverCardPrimitive.Trigger
           onMouseMove={handleMouseMove}
           className={cn("text-black dark:text-white", className)}
+          target="_blank"
           href={url}
         >
           {children}

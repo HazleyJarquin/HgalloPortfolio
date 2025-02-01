@@ -7,6 +7,7 @@ import BarberShop from "../../public/images/BarberShop.png";
 import TaskApp from "../../public/images/TaskApp.png";
 import AuraKit from "../../public/images/AuraKit.png";
 import HjarquinCross from "../../public/images/HjarquinCross.png";
+import ShopCo from "../../public/images/ShopCo.png";
 
 export const projectsData: IProjectsResponse[] = [
   {
@@ -25,6 +26,7 @@ export const projectsData: IProjectsResponse[] = [
       { id: 7, name: "Zustand" },
       { id: 8, name: "Vite" },
     ],
+    isUnderConstruction: false,
   },
   {
     id: 2,
@@ -43,6 +45,7 @@ export const projectsData: IProjectsResponse[] = [
       { id: 8, name: "Zustand" },
       { id: 9, name: "Vite" },
     ],
+    isUnderConstruction: false,
   },
   {
     id: 3,
@@ -58,9 +61,26 @@ export const projectsData: IProjectsResponse[] = [
       { id: 5, name: "Zustand" },
       { id: 6, name: "Vite" },
     ],
+    isUnderConstruction: false,
   },
   {
     id: 4,
+    title: "Shop.co",
+    description: "SHOP_CO_DESCRIPTION",
+    image: ShopCo,
+    url: "https://e-shop-co.vercel.app/",
+    tecnologies: [
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "Axios" },
+      { id: 4, name: "React-Query" },
+      { id: 5, name: "Firebase" },
+      { id: 6, name: "ShadcnUI" },
+    ],
+    isUnderConstruction: true,
+  },
+  {
+    id: 5,
     title: "ClimaSense",
     description: "CLIMA_SENSE_DESCRIPTION",
     image: ClimaSense,
@@ -73,9 +93,10 @@ export const projectsData: IProjectsResponse[] = [
       { id: 5, name: "Material-UI" },
       { id: 6, name: "Vite" },
     ],
+    isUnderConstruction: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "Barber Shop Landing",
     description: "BARBER_SHOP_DESCRIPTION",
     image: BarberShop,
@@ -86,9 +107,10 @@ export const projectsData: IProjectsResponse[] = [
       { id: 3, name: "ShadcnUI" },
       { id: 4, name: "Vite" },
     ],
+    isUnderConstruction: true,
   },
   {
-    id: 6,
+    id: 7,
     title: "Task App",
     description: "TASK_APP_DESCRIPTION",
     image: TaskApp,
@@ -103,9 +125,10 @@ export const projectsData: IProjectsResponse[] = [
       { id: 7, name: "Hjarquin-cross" },
       { id: 8, name: "Vite" },
     ],
+    isUnderConstruction: false,
   },
   {
-    id: 7,
+    id: 8,
     title: "Aura-kit UI",
     description: "AURA_KIT_DESCRIPTION",
     image: AuraKit,
@@ -117,9 +140,10 @@ export const projectsData: IProjectsResponse[] = [
       { id: 4, name: "Material-UI" },
       { id: 5, name: "Vite" },
     ],
+    isUnderConstruction: false,
   },
   {
-    id: 8,
+    id: 9,
     title: "Hjarquin Cross",
     description: "HJARQUIN_CROSS_DESCRIPTION",
     image: HjarquinCross,
@@ -130,5 +154,6 @@ export const projectsData: IProjectsResponse[] = [
       { id: 3, name: "Axios" },
       { id: 4, name: "React-Query" },
     ],
+    isUnderConstruction: false,
   },
 ];
