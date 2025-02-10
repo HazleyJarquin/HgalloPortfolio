@@ -13,10 +13,7 @@ interface Props {
 
 export const ProjectsCard = ({ projectData, t }: Props) => {
   return (
-    <div
-      className="w-full h-auto flex flex-col cursor-pointer"
-      // onClick={() => window.open(projectData.url, "_blank")}
-    >
+    <div className="w-full h-auto flex flex-col cursor-pointer">
       <LinkPreview url={projectData.url} className="relative font-bold">
         <img
           onError={(e) => {
