@@ -40,4 +40,10 @@ export const iconByTecnologyName: Record<string, React.ReactNode> = {
   WhatsApp: (
     <img src="/icons/Whatsapp.svg" alt="Whatsapp" className="w-6 h-6" />
   ),
+  Supabase: (
+    <img src="/icons/Supabase.svg" alt="Supabase" className="w-6 h-6" />
+  ),
+  NextAuth: (
+    <img src="/icons/NextAuth.svg" alt="Supabase" className="w-6 h-6" />
+  ),
 };

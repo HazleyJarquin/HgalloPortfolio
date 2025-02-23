@@ -8,6 +8,7 @@ import TaskApp from "../../public/images/TaskApp.png";
 import AuraKit from "../../public/images/AuraKit.png";
 import HjarquinCross from "../../public/images/HjarquinCross.png";
 import ShopCo from "../../public/images/ShopCo.png";
+import VizTrack from "../../public/images/VizTrack.png";
 
 export const projectsData: IProjectsResponse[] = [
   {
@@ -81,6 +82,23 @@ export const projectsData: IProjectsResponse[] = [
   },
   {
     id: 5,
+    title: "VizTrack",
+    description: "VIZTRACK_DESCRIPTION",
+    image: VizTrack,
+    url: "https://viztrack.vercel.app",
+    tecnologies: [
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "Axios" },
+      { id: 4, name: "React-Query" },
+      { id: 5, name: "Supabase" },
+      { id: 6, name: "ShadcnUI" },
+      { id: 7, name: "NextAuth" },
+    ],
+    isUnderConstruction: true,
+  },
+  {
+    id: 6,
     title: "ClimaSense",
     description: "CLIMA_SENSE_DESCRIPTION",
     image: ClimaSense,
@@ -96,7 +114,7 @@ export const projectsData: IProjectsResponse[] = [
     isUnderConstruction: false,
   },
   {
-    id: 6,
+    id: 7,
     title: "Barber Shop Landing",
     description: "BARBER_SHOP_DESCRIPTION",
     image: BarberShop,
@@ -110,7 +128,7 @@ export const projectsData: IProjectsResponse[] = [
     isUnderConstruction: true,
   },
   {
-    id: 7,
+    id: 8,
     title: "Task App",
     description: "TASK_APP_DESCRIPTION",
     image: TaskApp,
@@ -128,7 +146,7 @@ export const projectsData: IProjectsResponse[] = [
     isUnderConstruction: false,
   },
   {
-    id: 8,
+    id: 9,
     title: "Aura-kit UI",
     description: "AURA_KIT_DESCRIPTION",
     image: AuraKit,
@@ -143,7 +161,7 @@ export const projectsData: IProjectsResponse[] = [
     isUnderConstruction: false,
   },
   {
-    id: 9,
+    id: 10,
     title: "Hjarquin Cross",
     description: "HJARQUIN_CROSS_DESCRIPTION",
     image: HjarquinCross,
