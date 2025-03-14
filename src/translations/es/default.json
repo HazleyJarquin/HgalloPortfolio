@@ -35,6 +35,7 @@
   "SHOP_CO_DESCRIPTION": "Shop.co es un e-commerce de ropa que se basa en su carrito de compras, favoritos, auth de usuario, se usaron next.js, shadcn, axios, react-query, firebase, entre otros.",
   "ABOUT_ME_TEXT_TITLE": "¡Hola! Soy Hazley, un desarrollador web y móvil de 21 años apasionado por crear aplicaciones escalables y dinámicas. Me especializo en React, React Native y Next.js, con experiencia en herramientas como Firebase, Axios, React Query, Formik, React Hook Form y GetStream.",
   "ABOUT_ME_TEXT_DESCRIPTION": "Me encanta diseñar interfaces intuitivas y ofrecer soluciones de alta calidad. ¡Conectemos y hagamos algo increíble juntos!",
+  "E_TEACH_DESCRIPTION": "E-Teach es una aplicación innovadora diseñada para maestros y estudiantes, facilitando el proceso de aprendizaje. Los maestros pueden subir materiales, asignar tareas, calificar estudiantes y hacer seguimiento de su progreso de manera sencilla. Los estudiantes pueden entregar tareas, acceder a recursos educativos y mantenerse al día con sus calificaciones. Con E-Teach, la educación se vuelve más organizada y accesible para todos.",
   "SKILLS_TEXT": "Habilidades",
   "AND_MORE_TEXT": "Y más...",
   "CONTACT_TITLE_TEXT": "Contactame",

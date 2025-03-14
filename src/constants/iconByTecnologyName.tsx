@@ -46,4 +46,5 @@ export const iconByTecnologyName: Record<string, React.ReactNode> = {
   NextAuth: (
     <img src="/icons/NextAuth.svg" alt="Supabase" className="w-6 h-6" />
   ),
+  MongoDB: <img src="/icons/MongoDB.svg" alt="Supabase" className="w-6 h-6" />,
 };

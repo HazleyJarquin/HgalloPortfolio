@@ -9,6 +9,7 @@ import AuraKit from "../../public/images/AuraKit.png";
 import HjarquinCross from "../../public/images/HjarquinCross.png";
 import ShopCo from "../../public/images/ShopCo.png";
 import VizTrack from "../../public/images/VizTrack.png";
+import ETeach from "../../public/images/E-Teach.png";
 
 export const projectsData: IProjectsResponse[] = [
   {
@@ -63,6 +64,22 @@ export const projectsData: IProjectsResponse[] = [
       { id: 6, name: "Vite" },
     ],
     isUnderConstruction: false,
+  },
+  {
+    id: 11,
+    title: "E-Teach",
+    description: "E_TEACH_DESCRIPTION",
+    image: ETeach,
+    isUnderConstruction: true,
+    tecnologies: [
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "Axios" },
+      { id: 4, name: "React-Query" },
+      { id: 5, name: "MongoDB" },
+      { id: 6, name: "ShadcnUI" },
+    ],
+    url: "https://e-teach.vercel.app",
   },
   {
     id: 4,
