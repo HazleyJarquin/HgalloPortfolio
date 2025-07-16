@@ -47,4 +47,9 @@ export const iconByTecnologyName: Record<string, React.ReactNode> = {
     <img src="/icons/NextAuth.svg" alt="Supabase" className="w-6 h-6" />
   ),
   MongoDB: <img src="/icons/MongoDB.svg" alt="Supabase" className="w-6 h-6" />,
+  Prisma: <img src="/icons/prisma.svg" alt="Prisma" className="w-6 h-6" />,
+  Postgres: (
+    <img src="/icons/postgresql.svg" alt="Postgres" className="w-6 h-6" />
+  ),
+  Railway: <img src="/icons/railway.svg" alt="Railway" className="w-6 h-6" />,
 };
