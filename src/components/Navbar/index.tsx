@@ -1,20 +1,14 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-
 import { CustomButton } from "../CustomButton";
 import { useTranslation } from "react-i18next";
 import { useLanguage } from "@/context/I18nProvider";
-import { useEffect, useState } from "react";
-import { useTourStore } from "@/store/useTourStore";
-import { useStartTour } from "./hooks/useStartTour";
 import { MenuIcon, XIcon } from "lucide-react";
 import { NavLinks } from "./components/NavLinks";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 export const Navbar = () => {
   const { t } = useTranslation();
   const { changeLanguage, language } = useLanguage();
-  const { tour, setTour } = useTourStore();
-  const { startTour } = useStartTour({ t });
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -24,13 +18,6 @@ export const Navbar = () => {
   const handleLanguageChange = () => {
     changeLanguage(language === "en" ? "es" : "en");
   };
-
-  useEffect(() => {
-    if (!tour) {
-      setTour(true);
-      startTour();
-    }
-  }, [tour]);
 
   return (
     <div className="bg-transparent w-full p-2 flex justify-between items-center">

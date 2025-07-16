@@ -10,8 +10,23 @@ import HjarquinCross from "../../public/images/HjarquinCross.png";
 import ShopCo from "../../public/images/ShopCo.png";
 import VizTrack from "../../public/images/VizTrack.png";
 import ETeach from "../../public/images/E-Teach.png";
+import AssisPro from "../../public/images/assis-pro.png";
 
 export const projectsData: IProjectsResponse[] = [
+  {
+    id: 11,
+    title: "AssisPro",
+    description: "ASSISPRO_DESCRIPTION",
+    image: AssisPro,
+    url: "https://assis-pro.vercel.app",
+    tecnologies: [
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "TypeScript" },
+      { id: 6, name: "ShadcnUI" },
+      { id: 7, name: "Zustand" },
+    ],
+    isUnderConstruction: true,
+  },
   {
     id: 1,
     title: "Luired Shop",

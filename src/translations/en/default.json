@@ -36,6 +36,7 @@
   "ABOUT_ME_TEXT_TITLE": "Hi there! I'm Hazley, a 21-year-old web and mobile developer passionate about building scalable and dynamic applications. I specialize in React, React Native, and Next.js, with experience in tools like Firebase, Axios, React Query, Formik, React Hook Form, and GetStream.",
   "ABOUT_ME_TEXT_DESCRIPTION": "I love crafting intuitive user interfaces and delivering high-quality solutions. Let’s connect and create something amazing together!",
   "E_TEACH_DESCRIPTION": "E-Teach is an innovative app designed for teachers and students, streamlining the learning experience. Teachers can upload materials, assign homework, grade students, and track their progress effortlessly. Students can submit assignments, access learning resources, and stay updated on their grades. With E-Teach, education becomes more organized and accessible for everyone.",
+  "ASSISPRO_DESCRIPTION": "AssisPro is a smart attendance tracking platform designed for companies aiming to optimize the management of employee check-ins, check-outs, leave requests, and productivity metrics. With an intuitive dashboard, real-time tracking, and detailed reports, AssisPro enhances operational efficiency and decision-making across teams of all sizes.",
   "SKILLS_TEXT": "Skills",
   "AND_MORE_TEXT": "And more...",
   "CONTACT_TITLE_TEXT": "Contact me",
